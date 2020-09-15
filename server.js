@@ -1,4 +1,4 @@
-/ load the things we need
+// load the things we need
 var express = require('express');
 var app = express();
 
