@@ -18,9 +18,9 @@
 .hero .hero-content {
   position: absolute;
   top: 35%;
-width: 50%;
+width: 99%;
 height: 100%;
-transform: translateX(50%);
+transform: translateX(0%);
 z-index: 9;
 text-align: center;
 }
@@ -94,6 +94,231 @@ color: rgb(255, 255, 255);
     left: 0;
     right: 0;
 }
+
+.card .carousel-item {
+  height: auto;
+}
+.card .carousel-caption {
+  padding: 0;
+  right: 0;
+  left: 0;
+  color: #3d3d3d;
+}
+.card .carousel-caption h3 {
+  color: #3d3d3d;
+}
+.card .carousel-caption p {
+  line-height: 30px;
+}
+.card .carousel-caption .col-sm-3 {
+  display: flex;
+  align-items: center;
+}
+.card .carousel-caption .col-sm-9 {
+  text-align: left;
+}
+.navi a {
+    text-decoration:none;
+}
+a > .ico {
+    background-color: grey;
+    padding: 10px;
+    
+}
+a:hover > .ico {
+    background-color: #666;
+}
+
+.card blockquote::before {
+    color: #777;
+    display: block !important;
+    left: 10px;
+    top: 0px;
+    content: "“";
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    position: absolute;
+}
+.card blockquote::after {
+    color: #777;
+    display: block !important;
+    right: 10px;
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    content: "”";
+	margin-top:50px;
+}
+.card blockquote{
+border:none !important;
+margin:0;
+}
+.testimonial .card{	
+	border: none;	
+}
+.card .carousel-inner{
+	overflow:visible !important;
+}
+.card .carousel-caption{
+	position:relative;
+	
+}
+
+.card .carousel-indicators {
+    right: 25px !important;
+    top: 9px !important;
+	left:unset;	
+	margin:0;
+	height: 20px;
+	}
+.card .carousel-indicators li {
+   
+	height:13px;
+	width:13px;
+	border-radius:30px;
+	border:1px solid #4dbb6d;
+}
+.card strong{
+color: #111;
+display: block;
+padding-top: 10px;
+margin-bottom: -5px;
+font-size: 16px;
+font-weight: 700;
+}
+.card a{
+    color: #4dbb6d;
+    text-decoration: none;
+}
+
+.conversion-left-img {
+    background: url('ttps://www.gettaxshield.com/images/track.jpeg');
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto;
+    background-position: center;
+    background-size: cover;
+}
+.res-text-size{
+font-size:18px !important;
+}
+/* container */
+@media (min-width: 200px) {
+.hero .hero-content{top: 10%;} 
+.hero .hero-content h1{
+	font-size: 25px !important;
+}
+.btn.btn-medium {
+    //font-size: 6px;
+	}
+}
+
+@media (min-width: 320px) {
+.card blockquote::after {
+    color: #777;
+    display: block !important;
+    right: 10%;
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    position: absolute;
+    bottom: 0;
+    top: 36%;
+    content: "”";
+    margin-top: none;
+}
+.hero .hero-content{top: 30%;
+width: 88%;
+height: 100%;
+transform: translateX(7%);
+}
+.testimonial .carousel-inner h4{
+font-size: 30px;
+margin: 0 0 50px;
+} 
+.hero .hero-content h1{
+	font-size: 30px !important;
+}
+@media (min-width: 330px) {
+.hero .hero-content{top: 35%;} 
+.hero .hero-content h1{
+	font-size: 30px !important;
+}
+.btn.btn-medium {
+    //font-size: 8px;
+	}
+	.card blockquote::after {
+    color: #777;
+    display: block !important;
+    right: 10%;
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    position: absolute;
+    bottom: 0;
+    top: 25%;
+    content: "”";
+    margin-top: none;
+}
+}
+
+@media (min-width: 575px) {
+.hero .hero-content{top: 20%;} 
+.hero .hero-content h1{
+	font-size: 48px !important;
+}
+.card blockquote::after {
+    color: #777;
+    display: block !important;
+    right: 10%;
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    position: absolute;
+    bottom: 0;
+    top: 8%;
+    content: "”";
+    margin-top: none;
+}
+}
+@media (min-width: 768px) { .hero .hero-content{top: 22%;} 
+.hero .hero-content h1{
+	
+}
+
+}
+
+@media (min-width: 992px) { .hero .hero-content{top: 30%;} 
+.hero .hero-content h1{
+	
+}
+.card blockquote::after {
+    color: #777;
+    display: block !important;
+    right: 10%;
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    position: absolute;
+    bottom: 0;
+    top: 3%;
+    content: "”";
+    margin-top: none;
+}
+}
+@media (min-width: 1200px) { .hero .hero-content{} 
+.hero .hero-content h1{
+	
+}
+
+}
+
+
+
 	</style>
 </head>
 <body>
@@ -103,12 +328,12 @@ color: rgb(255, 255, 255);
 	<!-- end header -->
 
 	<section class="hero no-padding">
-		<video autoplay loop src="https://goo.gl/rkMBfx"></video>
+		<video autoplay loop muted playsinline src="images/Toronto-3.mp4"></video>
 		<div class="hero-content"> 
-			<h1>Web Development & SEO Company</h1>
+			<h1>Web Development & SEO</h1>
 			<h3>We help you get more leads, more sales, and leave a lasting first impression</h3>
 			<!-- layer nr. 5 -->
-			<a href="#" class="tp-caption btn btn-transparent-white btn-medium border-radius-4 z-index-5">SCHEDULE A PHONE CALL TODAY</a>
+			<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/andreironcea/15min'});return false;" class="m-2 tp-caption btn btn-transparent-white btn-medium border-radius-4 z-index-5">Book Call</a>
 		</div>
 	</section>
 
@@ -116,10 +341,10 @@ color: rgb(255, 255, 255);
 	<section class="wow fadeIn">
 		<div class="container"> 
 			<div class="row align-items-center">
-				<div class="col-12 col-lg-5 text-center md-margin-30px-bottom wow fadeInLeft">
+				<div class="col-12 col-lg-6 text-center md-margin-30px-bottom wow fadeInLeft">
 					<img src="/images/about-us.jpg" alt="" class="border-radius-6 w-100">
 				</div> 
-				<div class="col-12 col-lg-7 padding-eight-lr text-center text-lg-left lg-padding-nine-right md-padding-15px-lr wow fadeInRight" data-wow-delay="0.2s">
+				<div class="col-12 col-lg-6 padding-one-lr text-center text-lg-justify lg-padding-nine-right md-padding-15px-lr wow fadeInRight" data-wow-delay="0.2s">
 					<span class="text-deep-pink alt-font margin-10px-bottom d-inline-block text-medium">About Us</span>
 					<!-- <h6 class="alt-font text-extra-dark-gray">We are committed to our customers’ success from start to finish. Our input helps make their solutions.</h6> -->
 					<p>Omnius is relentlessly focused on our clients’ bottom-lines. We’re tired of the agencies that make beautiful websites or a complex online strategy that lead to 0 sales. We create beautiful, simple websites that sell and leave a great impression. We excel in helping businesses stand out online. </p>
@@ -127,872 +352,481 @@ color: rgb(255, 255, 255);
 						
 					You’re working to improve your business offline all the time, but are you working on your online business? The trend we’ve been seeing is a mass exodus away from retail stores, boutiques, in-person selling. Mastering the online world is more vital than ever, and Omnius is here to guide your hand through this digital transition age. Never before has this happened and we’re poised to help you. Get on a 15-minute discovery call with the CEO today.
 						</p>
-					<a href="#" class="btn btn-dark-gray btn-small text-extra-small btn-rounded margin-5px-top"> Book a Call</a>
+					<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/andreironcea/15min'});return false;" class="btn btn-dark-gray btn-small text-extra-small btn-rounded margin-5px-top"> Book a Call</a>
 				</div>
-			</div>
-			<div class="divider-full bg-extra-light-gray margin-seven-bottom margin-eight-top"></div>
-			<!-- start feature box -->
-			<div class="row">
-				<!-- start feature box item -->
-				<div class="col-12 col-md-4 text-center text-md-left sm-margin-15px-bottom wow fadeInUp">
-					<div class="row m-0">
-						<div class="col-12 col-lg-3 col-md-4 pl-0 sm-no-padding-lr float-left sm-margin-15px-bottom">
-							<i class="icon-desktop text-medium-gray icon-extra-medium top-6"></i>
-						</div>
-						<div class="col-12 col-lg-9 col-md-8 p-0">
-							<span class="margin-5px-bottom text-extra-dark-gray alt-font d-block font-weight-600">Web design</span>
-							<p class="width-75 lg-width-100">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-						</div>
-					</div>
-				</div>
-				<!-- end feature box item -->
-				<!-- start feature box item -->
-				<div class="col-12 col-md-4 text-center text-md-left sm-margin-15px-bottom wow fadeInUp" data-wow-delay="0.2s">
-					<div class="row m-0">
-						<div class="col-12 col-lg-3 col-md-4 pl-0 sm-no-padding-lr float-left sm-margin-15px-bottom">
-							<i class="icon-book-open text-medium-gray icon-extra-medium top-6"></i>
-						</div>
-						<div class="col-12 col-lg-9 col-md-8 p-0">
-							<span class="margin-5px-bottom text-extra-dark-gray alt-font d-block font-weight-600">SEO Marketing</span>
-							<p class="width-75 lg-width-100">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-						</div>
-					</div>
-				</div>
-				<!-- end feature box item -->
-				<!-- start feature box item -->
-				<div class="col-12 col-md-4 text-center text-md-left wow fadeInUp" data-wow-delay="0.4s">
-					<div class="row m-0">
-						<div class="col-12 col-lg-3 col-md-4 pl-0 sm-no-padding-lr float-left sm-margin-15px-bottom">
-							<i class="icon-gift text-medium-gray icon-extra-medium top-6"></i>
-						</div>
-						<div class="col-12 col-lg-9 col-md-8 p-0">
-							<span class="margin-5px-bottom text-extra-dark-gray alt-font d-block font-weight-600">Google Adwords</span>
-							<p class="width-75 lg-width-100">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-						</div>
-					</div>
-				</div>
-				<!-- end feature box item -->
-			</div>
-			<!-- start feature box -->
+			</div>			
 		</div>
 	</section>
 	<!-- end About us section -->
-
-	  
-
-			<!-- start about section --> 
-			<section class="wow fadeIn cover-background md-no-background-img bg-medium-light-gray" style="background-image: url('http://placehold.it/1920x800')">
-				<div class="container">
-					<div class="row"> 
-						<div class="col-12 col-lg-6 offset-lg-6 wow fadeIn">
-							<div class="row m-0">
-								<div class="col-12 text-center text-lg-left sm-no-padding-lr last-paragraph-no-margin margin-60px-bottom md-margin-30px-bottom"> 
-									<span class="text-medium text-deep-pink alt-font margin-10px-bottom d-inline-block">Easy way to build perfect websites</span>
-									<h5 class="alt-font text-extra-dark-gray font-weight-600">Beautifully handcrafted templates for your website</h5>
-									<p class="width-90 md-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 's standard dummy text. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum is simply dummy text.</p>
-								</div>                          
-								<!-- star feature box item -->
-								<div class="col-12 col-md-6 sm-margin-30px-bottom last-paragraph-no-margin sm-no-padding-lr text-center text-lg-left">
-									<i class="icon-tools text-deep-pink icon-extra-medium margin-20px-bottom md-margin-15px-bottom"></i>
-									<div class="feature-content">
-										<div class="alt-font font-weight-600 text-extra-dark-gray margin-5px-bottom">Modern Framework</div>
-										<p class="width-80 lg-width-90 md-width-100">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-									</div>
-								</div>
-								<!-- end feature box item -->
-								<!-- star feature box item -->
-								<div class="col-12 col-md-6 last-paragraph-no-margin sm-no-padding-lr text-center text-lg-left">
-									<i class="icon-layers text-deep-pink icon-extra-medium margin-20px-bottom md-margin-15px-bottom"></i>
-									<div class="feature-content">
-										<div class="alt-font font-weight-600 text-extra-dark-gray margin-5px-bottom">Live Website Builder</div>
-										<p class="width-80 lg-width-90 md-width-100">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-									</div> 
-								</div>
-								<!-- end feature box item -->
-							</div>
-						</div> 
-					</div>
-				</div>
-			</section>
-			<!-- end about section -->
-			<!-- start services section -->
-			<section class="wow fadeIn">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-12 col-lg-8 margin-eight-bottom text-center last-paragraph-no-margin">
-							<h5 class="alt-font text-extra-dark-gray font-weight-600">Beautiful and easy to use UI, professional animations and drag & drop feature</h5>
-							<p class="width-80 d-inline-block sm-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-						</div>
-					</div>
-					<div class="row">
-						<!-- start features box item -->
-						<div class="col-12 col-lg-3 col-md-6 md-margin-four-bottom sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin">
-							<div class="bg-white border-color-extra-medium-gray border text-center padding-eighteen-tb border-radius-4 position-relative h-100">
-								<div class="d-inline-block margin-20px-bottom"><i class="icon-tools text-white-2 icon-round-small bg-deep-pink"></i></div>
-								<div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">Pixel Perfect Design</div>
-								<p class="width-75 mx-auto">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
-							</div>
-						</div>
-						<!-- end features box item -->
-						<!-- start features box item -->
-						<div class="col-12 col-lg-3 col-md-6 md-margin-four-bottom sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
-							<div class="bg-white border-color-extra-medium-gray border text-center padding-eighteen-tb border-radius-4 position-relative h-100">
-								<div class="d-inline-block margin-20px-bottom"><i class="icon-layers text-white-2 icon-round-small bg-deep-pink"></i></div>
-								<div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">Full Documentation</div>
-								<p class="width-75 mx-auto">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
-							</div>
-						</div>
-						<!-- end features box item -->
-						<!-- start features box item -->
-						<div class="col-12 col-lg-3 col-md-6 sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
-							<div class="bg-white border-color-extra-medium-gray border text-center padding-eighteen-tb border-radius-4 position-relative h-100">
-								<div class="d-inline-block margin-20px-bottom"><i class="icon-scissors text-white-2 icon-round-small bg-deep-pink"></i></div>
-								<div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">Reasonable Pricing</div>
-								<p class="width-75 mx-auto">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
-							</div>
-						</div>
-						<!-- end features box item -->
-						<!-- start features box item -->
-						<div class="col-12 col-lg-3 col-md-6 wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.6s">
-							<div class="bg-white border-color-extra-medium-gray border text-center padding-eighteen-tb border-radius-4 position-relative h-100">
-								<div class="d-inline-block margin-20px-bottom"><i class="icon-lock text-white-2 icon-round-small bg-deep-pink"></i></div>
-								<div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">User-friendly Admin</div>
-								<p class="width-75 mx-auto">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
-							</div>
-						</div>
-						<!-- end features box item -->
-					</div>
-				</div>
-			</section>
-			<!-- end services section -->
-			<!-- start section -->
-			<section class="p-0 wow fadeIn">
-				<div class="container-fluid">
-					<div class="row">
-						<!-- start features item -->
-						<div class="col-12 col-lg-3 p-0 cover-background position-relative md-height-500px sm-height-300px wow fadeIn" style="background: transparent url('http://placehold.it/850x813')"></div>
-						<!-- end features item -->
-						<!-- start features item -->
-						<div class="col-12 col-lg-3 p-0 d-flex align-items-center position-relative bg-extra-dark-gray text-center text-lg-left wow fadeIn" data-wow-delay="0.2s">
-							<div class="padding-fifteen-all lg-padding-ten-all sm-padding-30px-all width-100">
-								<div class="alt-font text-medium-gray margin-10px-bottom">Build perfect websites</div>
-								<div class="alt-font text-extra-large margin-20px-bottom text-white-2 width-90 lg-width-100 sm-margin-15px-bottom">Unlimited power and customization possibilities</div>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum is simply dummy text.</p>
-								<a href="about-us-simple.html" class="btn btn-transparent-white btn-small border-radius-4"><i class="fas fa-play-circle icon-very-small margin-5px-right ml-0" aria-hidden="true"></i>Read More</a>
-							</div>
-						</div>
-						<!-- end features item -->
-						<!-- start features item -->
-						<div class="col-12 col-lg-3 p-0 cover-background position-relative md-height-500px sm-height-300px wow fadeIn" data-wow-delay="0.4s" style="background: transparent url('http://placehold.it/850x813')"></div>
-						<!-- end features item -->
-						<!-- start features item -->
-						<div class="col-12 col-lg-3 p-0 d-flex align-items-center position-relative bg-extra-dark-gray text-center text-lg-left wow fadeIn" data-wow-delay="0.6s">
-							<div class="padding-fifteen-all lg-padding-ten-all sm-padding-30px-all width-100">
-								<div class="alt-font text-medium-gray margin-10px-bottom">Unique digital experiences</div>
-								<div class="alt-font text-extra-large margin-20px-bottom text-white-2 width-90 lg-width-100 sm-margin-15px-bottom">Pixel perfect design and clear code delivered to you</div>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum is simply dummy text.</p>
-								<a href="about-us-classic.html" class="btn btn-transparent-white btn-small border-radius-4"><i class="fas fa-play-circle icon-very-small margin-5px-right ml-0" aria-hidden="true"></i>Read More</a>
-							</div>
-						</div>
-						<!-- end features item -->
-					</div>
-				</div>
-			</section>
-			<!-- end section -->
-			<!-- start portfolio section -->
-			<section class="wow fadeIn padding-90px-top md-padding-50px-top sm-padding-30px-top pb-0">
-				<div class="container">
-					<div class="row">
-						<div class="col-12">
-							<!-- start filter navigation -->
-							<ul class="portfolio-filter nav nav-tabs justify-content-center border-0 portfolio-filter-tab-1 font-weight-600 alt-font text-uppercase text-center margin-80px-bottom text-small md-margin-40px-bottom sm-margin-20px-bottom">
-								<li class="nav active"><a href="javascript:void(0);" data-filter="*" class="light-gray-text-link text-very-small">All</a></li>
-								<li class="nav"><a href="javascript:void(0);" data-filter=".web" class="light-gray-text-link text-very-small">Web</a></li>
-								<li class="nav"><a href="javascript:void(0);" data-filter=".advertising" class="light-gray-text-link text-very-small">Advertising</a></li>
-								<li class="nav"><a href="javascript:void(0);" data-filter=".branding" class="light-gray-text-link text-very-small">Branding</a></li>
-								<li class="nav"><a href="javascript:void(0);" data-filter=".design" class="light-gray-text-link text-very-small">Design</a></li>
-								<li class="nav"><a href="javascript:void(0);" data-filter=".photography" class="light-gray-text-link text-very-small">Photography</a></li>
-							</ul>                                                                           
-							<!-- end filter navigation -->
-						</div>
-					</div>
-				</div>
-				<!-- start filter content -->
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-12 px-0 sm-padding-15px-lr">
-							<div class="filter-content overflow-hidden">
-								<ul class="portfolio-grid work-4col gutter-medium hover-option7">
-									<li class="grid-sizer"></li>
-									<!-- start portfolio item -->
-									<li class="grid-item web branding design wow fadeInUp">
-										<a href="single-project-page-01.html">
-											<figure>
-												<div class="portfolio-img"><img src="http://placehold.it/800x650" alt=""/></div>
-												<figcaption>
-													<div class="portfolio-hover-main text-center last-paragraph-no-margin">
-														<div class="portfolio-hover-box align-middle">
-															<div class="portfolio-hover-content position-relative">
-																<span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">Naked Soap</span>
-																<p class="text-medium-gray text-uppercase text-extra-small">Web and Photography</p>
-															</div>
-														</div>
-													</div>
-												</figcaption>
-											</figure>
-										</a>
-									</li>
-									<!-- end portfolio item -->
-									<!-- start portfolio item -->
-									<li class="grid-item design photography wow fadeInUp" data-wow-delay="0.2s">
-										<a href="single-project-page-02.html">
-											<figure>
-												<div class="portfolio-img"><img src="http://placehold.it/800x650" alt=""/></div>
-												<figcaption>
-													<div class="portfolio-hover-main text-center last-paragraph-no-margin">
-														<div class="portfolio-hover-box align-middle">
-															<div class="portfolio-hover-content position-relative">
-																<span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">Berlin Design</span>
-																<p class="text-medium-gray text-uppercase text-extra-small">Branding and Brochure</p>
-															</div>
-														</div>
-													</div>
-												</figcaption>
-											</figure>
-										</a>
-									</li>
-									<!-- end portfolio item -->
-									<!-- start portfolio item -->
-									<li class="grid-item web branding design photography wow fadeInUp" data-wow-delay="0.4s">
-										<a href="single-project-page-03.html">
-											<figure>
-												<div class="portfolio-img"><img src="http://placehold.it/800x650" alt=""/></div>
-												<figcaption>
-													<div class="portfolio-hover-main text-center last-paragraph-no-margin">
-														<div class="portfolio-hover-box align-middle">
-															<div class="portfolio-hover-content position-relative">
-																<span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">Abstract Comics</span>
-																<p class="text-medium-gray text-uppercase text-extra-small">Branding and Identity</p>
-															</div>
-														</div>
-													</div>
-												</figcaption>
-											</figure>
-										</a>
-									</li>
-									<!-- end portfolio item -->
-									<!-- start portfolio item -->
-									<li class="grid-item advertising branding design photography wow fadeInUp" data-wow-delay="0.6s">
-										<a href="single-project-page-04.html">
-											<figure>
-												<div class="portfolio-img"><img src="http://placehold.it/800x650" alt=""/></div>
-												<figcaption>
-													<div class="portfolio-hover-main text-center last-paragraph-no-margin">
-														<div class="portfolio-hover-box verticalalign-middle">
-															<div class="portfolio-hover-content position-relative">
-																<span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">Teabag Collection</span>
-																<p class="text-medium-gray text-uppercase text-extra-small">Web and Photography</p>
-															</div>
-														</div>
-													</div>
-												</figcaption>
-											</figure>
-										</a>
-									</li>
-									<!-- end portfolio item -->
-									<!-- start portfolio item -->
-									<li class="grid-item web branding design wow fadeInUp">
-										<a href="single-project-page-05.html">
-											<figure>
-												<div class="portfolio-img"><img src="http://placehold.it/800x650" alt=""/></div>
-												<figcaption>
-													<div class="portfolio-hover-main text-center last-paragraph-no-margin">
-														<div class="portfolio-hover-box align-middle">
-															<div class="portfolio-hover-content position-relative">
-																<span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">HardDot Stone</span>
-																<p class="text-medium-gray text-uppercase text-extra-small">Branding and Identity</p>
-															</div>
-														</div>
-													</div>
-												</figcaption>
-											</figure>
-										</a>
-									</li>
-									<!-- end portfolio item -->
-									<!-- start portfolio item -->
-									<li class="grid-item web advertising branding design photography wow fadeInUp" data-wow-delay="0.2s">
-										<a href="single-project-page-06.html">
-											<figure>
-												<div class="portfolio-img"><img src="http://placehold.it/800x650" alt=""/></div>
-												<figcaption>
-													<div class="portfolio-hover-main text-center last-paragraph-no-margin">
-														<div class="portfolio-hover-box align-middle">
-															<div class="portfolio-hover-content position-relative">
-																<span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">Educamp School</span>
-																<p class="text-medium-gray text-uppercase text-extra-small">Branding and Identity</p>
-															</div>
-														</div>
-													</div>
-												</figcaption>
-											</figure>
-										</a>
-									</li>
-									<!-- end portfolio item -->
-									<!-- start portfolio item -->
-									<li class="grid-item web advertising branding design photography wow fadeInUp" data-wow-delay="0.4s">
-										<a href="single-project-page-07.html">
-											<figure>
-												<div class="portfolio-img"><img src="http://placehold.it/800x650" alt=""/></div>
-												<figcaption>
-													<div class="portfolio-hover-main text-center last-paragraph-no-margin">
-														<div class="portfolio-hover-box align-middle">
-															<div class="portfolio-hover-content position-relative">
-																<span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">Third Eye Glasses</span>
-																<p class="text-medium-gray text-uppercase text-extra-small">Branding and Brochure</p>
-															</div>
-														</div>
-													</div>
-												</figcaption>
-											</figure>
-										</a>
-									</li>
-									<!-- end portfolio item -->
-									<!-- start portfolio item -->
-									<li class="grid-item web advertising branding wow fadeInUp" data-wow-delay="0.6s">
-										<a href="single-project-page-08.html">
-											<figure>
-												<div class="portfolio-img"><img src="http://placehold.it/800x650" alt=""/></div>
-												<figcaption>
-													<div class="portfolio-hover-main text-center last-paragraph-no-margin">
-														<div class="portfolio-hover-box align-middle">
-															<div class="portfolio-hover-content position-relative">
-																<span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">Violator Series</span>
-																<p class="text-medium-gray text-uppercase text-extra-small">Web and Photography</p>
-															</div>
-														</div>
-													</div>
-												</figcaption>
-											</figure>
-										</a>
-									</li>
-									<!-- end portfolio item -->
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- end filter content -->
-			</section>
-			<!-- end portfolio section -->
-			<!-- start information section -->
-			<section class="wow fadeIn">
-				<div class="container">
-					<div class="row align-items-center"> 
-						<div class="col-12 col-lg-5 md-margin-50px-bottom">
-							<h5 class="alt-font text-extra-dark-gray font-weight-600">Beautifully handcrafted templates for your website</h5>
-							<ul class="p-0 list-style-4">
-								<li>Beautiful and easy to understand UI, professional animations</li>
-								<li>Theme advantages are pixel perfect design & clear code delivered</li>
-								<li>Present your services with flexible, convenient and multipurpose</li>
-								<li>Find more creative ideas for your projects </li>
-								<li>Unlimited power and customization possibilities</li> 
-							</ul>
-							<a href="home-classic-digital-agency.html" class="btn btn-dark-gray btn-small text-extra-small border-radius-4 margin-20px-top"><i class="fas fa-play-circle icon-very-small margin-5px-right no-margin-left" aria-hidden="true"></i> ALL advantages</a>
-						</div>
-						<div class="col-12 col-lg-7 text-center">
-							<img src="images/explore-work-02.png" alt="" class="w-100">
-						</div> 
-					</div>
-				</div>
-			</section>
-			<!-- end information section -->
-			<!-- start parallax feature box -->
-			<section class="p-0 wow fadeIn bg-light-gray">
-				<div class="container-fluid">
-					<div class="row"> 
-						<div class="col-12 col-lg-6 wow fadeInLeft padding-four-all md-padding-eight-all md-padding-15px-lr sm-padding-50px-tb">
-							<div class="row m-0">
-								<div class="col-12 col-xl-10 margin-six-bottom lg-margin-six-bottom md-margin-30px-bottom sm-no-margin-bottom">
-									<h4 class="alt-font text-extra-dark-gray font-weight-600 text-center text-lg-left md-width-70 mx-auto mx-lg-0 sm-width-100 sm-margin-30px-bottom">We are delivering beautiful digital products for you</h4>
-								</div>
-								<!-- start feature box item -->
-								<div class="col-12 col-xl-6 col-lg-12 col-md-6 margin-six-bottom md-margin-30px-bottom last-paragraph-no-margin">
-									<div class="feature-box-5 position-relative">
-										<i class="icon-desktop text-medium-gray icon-medium"></i>
-										<div class="feature-content">
-											<div class="text-extra-dark-gray margin-5px-bottom alt-font font-weight-600">Powerful Website Builder</div>
-											<p class="width-95 sm-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-										</div>
-									</div>
-								</div>
-								<!-- end feature box item -->
-								<!-- start feature box item -->
-								<div class="col-12 col-xl-6 col-lg-12 col-md-6 margin-six-bottom md-margin-30px-bottom last-paragraph-no-margin">
-									<div class="feature-box-5 position-relative">
-										<i class="icon-book-open text-medium-gray icon-medium"></i>
-										<div class="feature-content">
-											<div class="text-extra-dark-gray margin-5px-bottom alt-font font-weight-600">Different Layout Type</div>
-											<p class="width-95 sm-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-										</div>
-									</div>
-								</div>
-								<!-- end feature box item -->
-								<!-- start feature box item -->
-								<div class="col-12 col-xl-6 col-lg-12 col-md-6 lg-margin-six-bottom md-no-margin-bottom sm-margin-30px-bottom last-paragraph-no-margin">
-									<div class="feature-box-5 position-relative">
-										<i class="icon-wallet text-medium-gray icon-medium"></i>
-										<div class="feature-content">
-											<div class="text-extra-dark-gray margin-5px-bottom alt-font font-weight-600">True Responsiveness</div>
-											<p class="width-95 sm-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-										</div>
-									</div>
-								</div>
-								<!-- end feature box item -->
-								<!-- start feature box item -->
-								<div class="col-12 col-xl-6 col-lg-12 col-md-6 last-paragraph-no-margin">
-									<div class="feature-box-5 position-relative ">
-										<i class="icon-camera text-medium-gray icon-medium"></i>
-										<div class="feature-content">
-											<div class="text-extra-dark-gray margin-10px-bottom alt-font font-weight-600">Elegant / Unique design</div>
-											<p class="width-95 sm-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-										</div>
-									</div>
-								</div>
-								<!-- end feature box item -->
-							</div>
-						</div> 
-						<div class="col-12 col-lg-6 cover-background md-height-400px wow fadeInRight" style="background-image:url('http://placehold.it/945x663');"></div>
-					</div>
-				</div>
-			</section>
-			<!-- end parallax feature box -->   
-			<!-- start services section -->
-			<section class="wow fadeIn">
-				<div class="container">
-					<div class="row">
-						<div class="col-12 text-center">
-							<div class="alt-font margin-5px-bottom text-uppercase text-small text-medium-gray">What We Do</div>
-							<h5 class="text-uppercase alt-font text-extra-dark-gray margin-20px-bottom font-weight-700 md-width-100">our services</h5>
-							<span class="separator-line-horrizontal-medium-light2 bg-deep-pink d-table mx-auto width-100px"></span>
-						</div>
-						<div class="col-12 margin-100px-top md-margin-70px-top sm-margin-50px-top">                    
-							<div class="row">
-								<!-- start services item -->
-								<div class="col-12 col-md-4 team-block text-left feature-box-15 sm-margin-40px-bottom last-paragraph-no-margin wow fadeInUp">
-									<figure>
-										<div class="feature-box-content sm-width-100">
-											<div class="feature-box-image"><img src="http://placehold.it/900x650" alt=""></div>
-											<div class="hover-content bg-deep-pink d-flex justify-content-center align-items-center">
-												<div class="padding-twelve-lr">
-													<span class="text-white-2 d-inline-block text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-												</div>
-											</div> 
-										</div>
-										<figcaption>
-											<div class="text-center margin-25px-top">
-												<div class="text-extra-dark-gray alt-font font-weight-600">Design and Development</div> 
-												<p>600+ We created web design</p>
-											</div>   
-										</figcaption>
-									</figure>
-								</div>
-								<!-- end services item -->
-								<!-- start services item -->
-								<div class="col-12 col-md-4 team-block text-left feature-box-15 sm-margin-40px-bottom last-paragraph-no-margin wow fadeInUp" data-wow-delay="0.2s">
-									<figure>
-										<div class="feature-box-content sm-width-100">
-											<div class="feature-box-image"><img src="http://placehold.it/900x650" alt=""></div>
-											<div class="hover-content bg-deep-pink d-flex justify-content-center align-items-center">
-												<div class="padding-twelve-lr">
-													<span class="text-white-2 d-inline-block text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-												</div>
-											</div> 
-										</div>
-										<figcaption>
-											<div class="text-center margin-25px-top">
-												<div class="text-extra-dark-gray alt-font font-weight-600">Social Media Marketing</div> 
-												<p>475+ We completed marketing</p>
-											</div>   
-										</figcaption>
-									</figure>
-								</div>
-								<!-- end services item -->
-								<!-- start services item -->
-								<div class="col-12 col-md-4 team-block text-left feature-box-15 last-paragraph-no-margin wow fadeInUp" data-wow-delay="0.6s">
-									<figure>
-										<div class="feature-box-content sm-width-100">
-											<div class="feature-box-image"><img src="http://placehold.it/900x650" alt=""></div>
-											<div class="hover-content bg-deep-pink d-flex justify-content-center align-items-center">
-												<div class="padding-twelve-lr">
-													<span class="text-white-2 d-inline-block text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-												</div>
-											</div> 
-										</div>
-										<figcaption>
-											<div class="text-center margin-25px-top">
-												<div class="text-extra-dark-gray alt-font font-weight-600">Mobile App Development</div> 
-												<p>475+ We created mobile app</p>
-											</div>   
-										</figcaption>
-									</figure>
-								</div>
-								<!-- end services item -->
-							</div>
-						</div>
+	<!-- start Your Result section -->
+	<section class="parallax" data-stellar-background-ratio="0.6" style="background-image: url('images/homepage-9-parallax-img5.jpg')">
+		<div class="opacity-medium bg-extra-dark-gray"></div>
+		<div class="container-fluid position-relative">
+			<div class="row align-items-center"> 
+				<div class="col-12 col-lg-6 text-center md-margin-50px-bottom sm-margin-30px-bottom wow fadeIn">
+					<img src="images/homepage-option15-image-3.png" alt="" class="w-100">
+				</div> 
+				<div class="col-12 col-lg-6 wow fadeIn" data-wow-delay="0.2s">
+					<div class="width-75 lg-width-100 padding-three-lr sm-no-padding-lr">
+						<h4 class="alt-font text-white-2 font-weight-600">Your Results</h4>						
+						<ul class="p-0 text-white-2 res-text-size list-style-4 margin-30px-bottom list-style-color">
+						<li>Give a stunning first impression and build trust with visitors</li>
+						<li>Capture mobile-users with a mobile-friendly website</li>
+						<li>Track behavior and demographics through analytics</li>
+						<li>Give users a fast, clear website browsing experience </li>
+						<li>Get a better ROI on leads through SEO</li> 
+						<li>Capture market share from competitors</li> 
+						</ul>
 					</div>
 				</div> 
-			</section>
-			<!-- end services section -->
-			<!-- start parallax section -->
-			<section class="parallax" data-stellar-background-ratio="0.6" style="background-image: url(&quot;http://placehold.it/1920x1200&quot;)">
-				<div class="opacity-medium bg-extra-dark-gray"></div>
-				<div class="container-fluid position-relative">
-					<div class="row align-items-center"> 
-						<div class="col-12 col-lg-6 text-center md-margin-50px-bottom sm-margin-30px-bottom wow fadeIn">
-							<img src="images/homepage-option15-image-3.png" alt="" class="w-100">
-						</div> 
-						<div class="col-12 col-lg-6 wow fadeIn" data-wow-delay="0.2s">
-							<div class="width-75 lg-width-100 padding-three-lr sm-no-padding-lr">
-								<h4 class="alt-font text-white-2 font-weight-600">Unique, truly responsive and functional websites </h4>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry's standard dummy text.</p>
-								<ul class="p-0 list-style-4 margin-30px-bottom list-style-color">
-									<li>Beautiful and easy to understand UI, professional animations</li>
-									<li>Theme advantages are pixel perfect design &amp; clear code delivered</li>
-									<li>Present your services with flexible, convenient and multipurpose</li>
-									<li>Unlimited power and customization possibilities</li> 
-								</ul>
-								<a href="about-us-modern.html" class="btn btn-white btn-small text-extra-small border-radius-4 margin-20px-tb md-no-margin-bottom"><i class="fas fa-play-circle icon-very-small margin-5px-right ml-0" aria-hidden="true"></i>GET TO KNOW US</a>
+			</div>
+		</div>
+	</section>
+	<!-- end Your Result section -->
+	
+	<!-- start Testimonial us section -->
+	<section class="wow fadeIn pt-5 pb-5">
+		<div class="container"> 
+			<div class="row testimonial align-items-center">
+				<div class="card col-md-12">
+				  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="100000">
+					<span class="d-none d-sm-block d-md-block">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleControls" data-slide-to="1"></li>
+					</ol>
+					</span>
+					<div class="w-100 carousel-inner" role="listbox">
+					 <h4 class="text-center text-extra-dark-gray"><b>Testimonials</b></h4>
+					  <div class="carousel-item active" id="carousel-item1">
+						<div class="carousel-caption">
+						  <div class="row">
+							<div class="col-xs-8 col-sm-4 col-md-2 center">
+							  <img src="/images/bennytestex.jpg" style="width:100%;" alt="" class="rounded-circle img-fluid"/>
 							</div>
-						</div> 
+							<div class="col-xs-12 col-sm-12 col-md-10 text-left">							 
+							  <blockquote class="pb-sm pb-md pb-xs">
+							 <span>Omnius was great to work with and did everything I needed. They not only made me a clean and attractive website but also helped drastically lower my spending in online marketing while keeping client inflow the same.</span></blockquote>
+							  <div class="pl-5 pt-0"><strong>Benny Zappia</strong>
+							  <span class="text-color-primary"><a href="#" target="_blank">CEO & Founder - We Win Traffic Tickets</a></span></div>
+							 
+							</div>
+						  </div>
+						</div>
+					  </div>
+					  <div class="carousel-item" id="carousel-item2">
+						<div class="carousel-caption">
+						  <div class="row">
+							<div class="col-xs-8 col-sm-4 col-md-2 center">
+							  <img src="/images/logo-min.png" style="width:100%;" alt="" class="rounded-circle img-fluid">
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-10 text-left">
+							  <blockquote class="pb-sm">
+							 <span>Working with Andrei was an easy process. He listened to what our needs were, and helped to get our new site up and running as quick as possible.I would definitely recommend his services</span></blockquote>
+							  <div class="pl-5 pt-0"><strong>Teresa Pascoe</strong>
+							  <span class="text-color-primary"><a href="#" target="_blank">All Pro Storage</a></span>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					  </div>
 					</div>
-				</div>
-			</section>
-			<!-- end parallax section -->
-			<!-- start section -->
-			<section class="wow fadeIn">
-				<div class="container"> 
-					<div class="row align-items-center">
-						<div class="col-12 col-lg-5 text-center md-margin-50px-bottom wow fadeInLeft">
-							<img src="http://placehold.it/900x650" alt="" class="w-100">
-						</div> 
-						<div class="col-12 col-lg-7 wow fadeInRight last-paragraph-no-margin" data-wow-delay="0.2s">
-							<div class="padding-eight-lr text-center text-lg-left sm-no-padding w-100">
-								<span class="text-deep-pink alt-font margin-10px-bottom md-no-margin-bottom d-inline-block text-medium">Wide range of web development services</span>
-								<h5 class="font-weight-600 alt-font text-extra-dark-gray">Responsive, convenient and multipurpose theme</h5>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum is printing and typesetting simply dummy text.</p>
-								<a href="about-us-simple.html" class="btn btn-dark-gray btn-small text-extra-small border-radius-4 margin-30px-top"><i class="fas fa-play-circle icon-very-small margin-5px-right ml-0" aria-hidden="true"></i> About Company</a>
-							</div>
-						</div>
+					<div class="float-right navi d-sm-none d-md-none d-xs-block">
+					<a class="" href="#carouselExampleControls" role="button" data-slide="prev">
+					  <span class="carousel-control-prev-icon ico" aria-hidden="true"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="" href="#carouselExampleControls" role="button" data-slide="next">
+					  <span class="carousel-control-next-icon ico" aria-hidden="true"></span>
+					  <span class="sr-only">Next</span>
+					</a>
 					</div>
-					<div class="divider-full bg-extra-light-gray margin-seven-bottom margin-eight-top"></div>
-					<div class="row">
-						<!-- start feature box -->
-						<div class="col-12 col-md-4 sm-margin-30px-bottom text-center text-md-left wow fadeInUp last-paragraph-no-margin">
-							<div class="row m-0">
-								<div class="col-12 col-lg-3 col-md-4 pl-0 sm-no-padding-lr float-left sm-margin-15px-bottom">
-									<i class="icon-desktop text-medium-gray icon-extra-medium top-6"></i>
-								</div>
-								<div class="col-12 col-lg-9 col-md-8 p-0">
-									<span class="margin-5px-bottom text-extra-dark-gray alt-font d-block font-weight-600 sm-margin-10px-bottom">Modern Framework</span>
-									<p class="width-75 lg-width-100">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-								</div>
-							</div>
+				  </div>
+				</div>			
+			</div>
+			
+		</div>
+	</section>
+	<!-- start team-item section --> 
+	<section class="pt-1 wow fadeIn bg-light-gray" id="services" style="visibility: visible; animation-name: fadeIn;">
+		<div class="container">
+			<div class="row margin-40px-top md-margin-70px-top sm-margin-50px-top">
+				<!-- start blog post item -->
+				<div class="col-12 col-lg-4 col-md-6 md-margin-50px-bottom sm-margin-30px-bottom last-paragraph-no-margin wow fadeInUp team-item">
+					<div class="blog-post blog-post-style1 text-center text-md-left" style="background: #fff;">
+						<div class="blog-post-images overflow-hidden margin-25px-bottom md-margin-20px-bottom">
+							<a href="#">
+								<img src="/images/wewinthumbstretch.jpg" alt="">
+							</a>
 						</div>
-						<!-- end feature box -->
-						<!-- start feature box -->
-						<div class="col-12 col-md-4 sm-margin-30px-bottom text-center text-md-left wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
-							<div class="row m-0">
-								<div class="col-12 col-lg-3 col-md-4 pl-0 sm-no-padding-lr float-left sm-margin-15px-bottom">
-									<i class="icon-book-open text-medium-gray icon-extra-medium top-6"></i>
-								</div>
-								<div class="col-12 col-lg-9 col-md-8 p-0">
-									<span class="margin-5px-bottom text-extra-dark-gray alt-font d-block font-weight-600 sm-margin-10px-bottom">Web Interactive</span>
-									<p class="width-75 lg-width-100">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-								</div>
-							</div>
-						</div>
-						<!-- end feature box -->
-						<!-- start feature box -->
-						<div class="col-12 col-md-4 text-center text-md-left wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
-							<div class="row m-0">
-								<div class="col-12 col-lg-3 col-md-4 pl-0 sm-no-padding-lr float-left sm-margin-15px-bottom">
-									<i class="icon-gift text-medium-gray icon-extra-medium top-6"></i>
-								</div>
-								<div class="col-12 col-lg-9 col-md-8 p-0">
-									<span class="margin-5px-bottom text-extra-dark-gray alt-font d-block font-weight-600 sm-margin-10px-bottom">Graphic Design</span>
-									<p class="width-75 lg-width-100">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-								</div>
-							</div>
-						</div>
-						<!-- end feature box -->
-					</div>
-				</div>
-			</section>
-			<!-- end section -->
-			<!-- start advantage section -->
-			<section class="p-0 wow fadeIn bg-light-gray" id="services">
-				<div class="container-fluid">
-					<div class="row"> 
-						<div class="col-12 col-lg-6 padding-seven-half-tb padding-eight-lr lg-padding-five-all md-padding-ten-all sm-padding-15px-lr text-center text-lg-left last-paragraph-no-margin wow fadeIn">
-							<span class="text-medium margin-15px-bottom d-block alt-font text-deep-pink">We create premium designs and technology</span>
-							<h4 class="alt-font text-extra-dark-gray font-weight-600 mx-auto mx-lg-0 sm-width-100">we design brand, digital experience that engage the right customers.</h4>
-							<p class="width-80 lg-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry. Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry.</p>
-							<a href="services-simple.html" class="btn btn-dark-gray btn-small text-extra-small border-radius-4 margin-35px-top"><i class="fas fa-play-circle icon-very-small margin-5px-right ml-0" aria-hidden="true"></i>all advantages</a>
-						</div>
-						<div class="col-12 col-lg-6 position-relative md-height-500px sm-height-300 cover-background wow fadeIn" style="background-image: url('http://placehold.it/960x678')"></div>
-					</div>
-				</div>
-			</section>
-			<!-- end advantage section -->
-			<!-- start counter section --> 
-			<section class="wow fadeIn">
-				<div class="container">
-					<div class="row">
-						<!-- start counter box item -->
-						<div class="col-12 col-lg-3 col-md-6 md-padding-twelve-left md-margin-ten-bottom sm-margin-50px-bottom sm-padding-15px-left wow fadeInRight">
-							<div class="feature-box-5 position-relative">
-								<i class="icon-desktop text-medium-gray icon-extra-medium top-6"></i>
-								<div class="feature-content">
-									<h6 class="d-block text-extra-dark-gray font-weight-600 alt-font margin-5px-bottom mb-md-0 timer" data-speed="2000" data-to="350">350</h6>
-									<span class="text-small text-uppercase position-relative top-minus4">Happy Clients</span>
-								</div>
-							</div>
-						</div>
-						<!-- end counter box item -->
-						<!-- start counter box item -->
-						<div class="col-12 col-lg-3 col-md-6 md-padding-twelve-left md-margin-ten-bottom sm-margin-50px-bottom sm-padding-15px-left wow fadeInRight" data-wow-delay="0.2s">
-							<div class="feature-box-5 position-relative">
-								<i class="icon-camera text-medium-gray icon-extra-medium top-6"></i>
-								<div class="feature-content">
-									<h6 class="d-block text-extra-dark-gray font-weight-600 alt-font margin-5px-bottom mb-md-0 timer" data-speed="2000" data-to="780">780</h6>
-									<span class="text-small text-uppercase position-relative top-minus4">Photo Capture</span>
-								</div>
-							</div>
-						</div>
-						<!-- end counter box item -->
-						<!-- start counter box item -->
-						<div class="col-12 col-lg-3 col-md-6 md-padding-twelve-left sm-margin-50px-bottom sm-padding-15px-left wow fadeInRight" data-wow-delay="0.4s">
-							<div class="feature-box-5 position-relative">
-								<i class="icon-laptop text-medium-gray icon-extra-medium top-6"></i>
-								<div class="feature-content">
-									<h6 class="d-block text-extra-dark-gray font-weight-600 alt-font margin-5px-bottom mb-md-0 timer" data-speed="2000" data-to="850">850</h6>
-									<span class="text-small text-uppercase position-relative top-minus4">Work Completed</span>
-								</div>
-							</div>
-						</div>
-						<!-- end counter box item -->
-						<!-- start counter box item -->
-						<div class="col-12 col-lg-3 col-md-6 md-padding-twelve-left sm-padding-15px-left wow fadeInRight" data-wow-delay="0.6s">
-							<div class="feature-box-5 position-relative">
-								<i class="icon-chat text-medium-gray icon-extra-medium top-6"></i>
-								<div class="feature-content">
-									<h6 class="d-block text-extra-dark-gray font-weight-600 alt-font margin-5px-bottom mb-md-0 timer" data-speed="2000" data-to="650">650</h6>
-									<span class="text-small text-uppercase position-relative top-minus4">Telephonic Talk</span>
-								</div>
-							</div>
-						</div>
-						<!-- end counter box item -->
-					</div>
-				</div>
-			</section>
-			<!-- end counters section -->
-			<!-- start video section -->
-			<section class="parallax" data-stellar-background-ratio="0" style="background-image:url('http://placehold.it/1920x1100');">
-				<div class="opacity-full bg-extra-dark-gray"></div>
-				<div class="container position-relative">
-					<div class="row justify-content-center">
-						<div class="col-12 col-xl-9 col-lg-10 text-center wow fadeIn last-paragraph-no-margin">
-							<a class="popup-youtube" href="https://www.youtube.com/watch?v=nrJtHemSPW4"><img src="images/icon-play-white.png" class="width-10 sm-width-50px margin-30px-bottom" alt=""/></a>
-							<h4 class="alt-font text-white-2">Beautiful and easy to use UI, professional animations and drag & drop feature</h4>
-							<p class="width-75 mx-auto text-medium-gray lg-width-90 sm-width-100 sm-margin-30px-bottom">With years of experience in the website design and development industry ThemeZaa pride ourselves on creating unique, creative and quality designs that are developed upon the latest modern coding and developing techniques, which are then built using the most up to date, structured coding framework so that your development team can take it to the next level with ease.</p>
-							<a href="about-us-simple.html" class="btn btn-white btn-small text-extra-small border-radius-4 margin-45px-top sm-no-margin-top"><i class="fas fa-play-circle icon-very-small margin-5px-right ml-0" aria-hidden="true"></i> About Company</a>
+						<div class="post-details p-3">						
+							<a href="#" class="post-title text-medium text-extra-dark-gray width-90 md-width-100 d-block">We Win Traffic Tickets</a>
+							<p class="width-90 sm-width-100"><em style="">General Practice Attorney </em><br>Stunning new site. Increased conversion rates, saving them $1000s a month in advertising costs. </span></p>
 						</div>
 					</div>
 				</div>
-			</section>
-			<!-- end video section -->
-			<!-- start clients slider section  -->
-			<section class="wow fadeIn">
-				<div class="container text-center">
-					<div class="row">    
-						<div class="swiper-slider-clients swiper-container black-move wow fadeIn">
-							<div class="swiper-wrapper">
-								<!-- start slide -->
-								<div class="swiper-slide text-center"><a href="https://www.envato.com"><img src="images/logo-1.png" alt=""></a></div>
-								<!-- end slide -->
-								<!-- start slide -->
-								<div class="swiper-slide text-center"><a href="https://www.woocommerce.com"><img src="images/logo-2.png" alt=""></a></div>
-								<!-- end slide -->
-								<!-- start slide -->
-								<div class="swiper-slide text-center"><a href="https://www.wordpress.com"><img src="images/logo-3.png" alt=""></a></div>
-								<!-- end slide -->
-								<!-- start slide -->
-								<div class="swiper-slide text-center"><a href="https://www.magento.com"><img src="images/logo-4.png" alt=""></a></div>
-								<!-- end slide -->
-								<!-- start slide -->
-								<div class="swiper-slide text-center"><a href="https://www.sass-lang.com"><img src="images/logo-5.png" alt=""></a></div>
-								<!-- end slide -->
-								<!-- start slide -->
-								<div class="swiper-slide text-center"><a href="https://www.pingdom.com"><img src="images/logo-6.png" alt=""></a></div>
-								<!-- end slide -->
-								<!-- start slide -->
-								<div class="swiper-slide text-center"><a href="https://www.lesscss.org"><img src="images/logo-7.png" alt=""></a></div>
-								<!-- end slide -->
-								<!-- start slide -->
-								<div class="swiper-slide text-center"><a href="https://www.jquery.com"><img src="images/logo-8.png" alt=""></a></div>
-								<!-- end slide -->
-							</div>
+				<!-- end blog post item -->
+				<!-- start blog post item -->
+				<div class="col-12 col-lg-4 col-md-6 md-margin-50px-bottom sm-margin-30px-bottom last-paragraph-no-margin wow fadeInUp" data-wow-delay="0.2s">
+					<div class="blog-post blog-post-style1 text-center text-md-left" style="background: #fff;">
+						<div class="blog-post-images overflow-hidden margin-25px-bottom md-margin-20px-bottom">
+							<a href="blog-post-layout-02.html">
+								<img src="/images/allp.jpg" alt="">
+							</a>
 						</div>
-					</div>    
-				</div>
-			</section>
-			<!-- end clients slider section -->
-			<!-- start testimonial slider section -->
-			<section class="bg-light-gray wow fadeIn">
-				<div class="container">
-					<div class="row">
-						<div class="col-12 text-center wow fadeIn">
-							<p class="alt-font margin-5px-bottom text-uppercase text-small text-medium-gray">What people say</p>
-							<h5 class="text-uppercase alt-font text-extra-dark-gray margin-20px-bottom font-weight-700 md-width-100">Clients Words</h5>
-							<span class="separator-line-horrizontal-medium-light2 bg-deep-pink d-table mx-auto width-100px"></span>
-						</div>
-					</div>
-					<div class="row position-relative margin-100px-top md-margin-70px-top sm-margin-50px-top">
-						<div class="swiper-container swiper-pagination-bottom black-move blog-slider swiper-three-slides">
-							<div class="swiper-wrapper">
-								<!-- start testimonial item -->
-								<div class="col-12 col-lg-4 col-md-6 swiper-slide md-margin-four-bottom">
-									<div class="margin-half-all bg-white box-shadow-light text-center padding-fourteen-all sm-padding-30px-all">
-										<img src="http://placehold.it/149x149" class="rounded-circle width-40 margin-25px-bottom md-margin-15px-bottom" alt=""/>
-										<p class="md-margin-15px-bottom sm-margin-20px-bottom">I wanted to hire the best and after looking at several other companies, I knew Jacob was the perfect guy for the job. He is a true professional.</p>
-										<span class="text-extra-dark-gray text-small text-uppercase d-block line-height-10 alt-font font-weight-600">Shoko Mugikura</span>
-										<span class="text-light-gray2 text-extra-small text-uppercase text-medium-gray">Design Manager</span>
-									</div>
-								</div>
-								<!-- end testimonial item -->
-								<!-- start testimonial item -->
-								<div class="col-12 col-lg-4 col-md-6 swiper-slide md-margin-four-bottom">
-									<div class="margin-half-all bg-white box-shadow-light text-center padding-fourteen-all sm-padding-30px-all">
-										<img src="http://placehold.it/149x149" class="rounded-circle width-40 margin-25px-bottom md-margin-15px-bottom" alt=""/>
-										<p class="md-margin-15px-bottom sm-margin-20px-bottom">Trust us we looked for a very long time and wasted thousands of dollars testing other teams, freelancers, and outsource companies.</p>
-										<span class="text-extra-dark-gray text-small text-uppercase d-block line-height-10 alt-font font-weight-600">Alexander Harvard</span>
-										<span class="text-light-gray2 text-extra-small text-uppercase text-medium-gray">Co Founder / CEO</span>
-									</div>
-								</div>
-								<!-- end testimonial item -->
-								<!-- start testimonial item -->
-								<div class="col-12 col-lg-4 col-md-6 swiper-slide md-margin-four-bottom">
-									<div class="margin-half-all bg-white box-shadow-light text-center padding-fourteen-all sm-padding-30px-all">
-										<img src="http://placehold.it/149x149" class="rounded-circle width-40 margin-25px-bottom md-margin-15px-bottom" alt=""/>
-										<p class="md-margin-15px-bottom sm-margin-20px-bottom">This is an excellent company! I personally enjoyed the energy and the professional support the whole team gave to us into creating website.</p>
-										<span class="text-extra-dark-gray text-small text-uppercase d-block line-height-10 alt-font font-weight-600">Lindsay Swanson</span>
-										<span class="text-light-gray2 text-extra-small text-uppercase text-medium-gray">Creative Director</span>
-									</div>
-								</div>
-								<!-- end testimonial item -->
-								<!-- start testimonial item -->
-								<div class="col-12 col-lg-4 col-md-6 swiper-slide md-margin-four-bottom">
-									<div class="margin-half-all bg-white box-shadow-light text-center padding-fourteen-all sm-padding-30px-all">
-										<img src="http://placehold.it/149x149" class="rounded-circle width-40 margin-25px-bottom md-margin-15px-bottom" alt=""/>
-										<p class="md-margin-15px-bottom sm-margin-20px-bottom">Their team are easy to work with and helped me make amazing websites in a short amount of time. Thanks again guys for all your hard work.</p>
-										<span class="text-extra-dark-gray text-small text-uppercase d-block line-height-10 alt-font font-weight-600">Herman Miller</span>
-										<span class="text-light-gray2 text-extra-small text-uppercase text-medium-gray">Creative Director</span>
-									</div>
-								</div>
-								<!-- end testimonial item -->
-							</div>                        
-							<div class="swiper-pagination swiper-pagination-three-slides h-auto"></div>
+						<div class="post-details p-3">
+							<a href="#" class="post-title text-medium text-extra-dark-gray width-90 md-width-100 d-block">All Pro Storage</a>						
+							<p class="width-90 sm-width-100"><em style="">Storage Spaces </em><br> Beautiful and Interactive Website, Copywriting, SEO, Analytics, Slogan &amp; Competitor's Stats Package </span></p>
 						</div>
 					</div>
 				</div>
-			</section>
-			<!-- end testimonial slider section -->
-			<!-- start latest blog section  -->
-			<section class="border-top border-color-extra-light-gray wow fadeIn">
-				<div class="container">
-					<div class="row">
-						<div class="col-12 text-center">
-							<p class="alt-font margin-5px-bottom text-uppercase text-small text-medium-gray">Publish what you think</p>
-							<h5 class="text-uppercase alt-font text-extra-dark-gray margin-10px-top margin-20px-bottom font-weight-700 md-width-100 sm-width-100">Latest Blogs</h5>
-							<span class="separator-line-horrizontal-medium-light2 bg-deep-pink d-table mx-auto width-100px"></span>
+				<!-- end blog post item -->
+				<!-- start blog post item -->
+				<div class="col-12 col-lg-4 col-md-6 sm-margin-30px-bottom last-paragraph-no-margin sm-clear-both wow fadeInUp" data-wow-delay="0.4s">
+					<div class="blog-post blog-post-style1 text-center text-md-left" style="background: #fff;">
+						<div class="blog-post-images overflow-hidden margin-25px-bottom md-margin-20px-bottom">
+							<a href="blog-post-layout-03.html">
+								<img src="images/gmgthumb.jpg" alt="">
+							</a>
 						</div>
-					</div>
-					<div class="row margin-100px-top md-margin-70px-top sm-margin-50px-top">
-						<!-- start blog post item -->
-						<div class="col-12 col-lg-3 col-md-6 md-margin-50px-bottom sm-margin-30px-bottom last-paragraph-no-margin wow fadeInUp">
-							<div class="blog-post blog-post-style1 text-center text-md-left">
-								<div class="blog-post-images overflow-hidden margin-25px-bottom md-margin-20px-bottom">
-									<a href="blog-post-layout-01.html">
-										<img src="http://placehold.it/750x500" alt="">
-									</a>
-								</div>
-								<div class="post-details">
-									<span class="post-author text-extra-small text-medium-gray text-uppercase d-block margin-10px-bottom sm-margin-5px-bottom">25 April 2017 | by <a href="blog-classic.html" class="text-link-dark-gray">Jay Benjamin</a></span>
-									<a href="blog-post-layout-01.html" class="post-title text-medium text-extra-dark-gray width-90 md-width-100 d-block">I like the body. I like to design everything to do with the body.</a>
-									<div class="separator-line-horrizontal-full bg-medium-light-gray margin-20px-tb md-margin-15px-tb"></div>
-									<p class="width-90 sm-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum text...</p>
-								</div>
-							</div>
+						<div class="post-details p-3">						
+							<a href="#" class="post-title text-medium text-extra-dark-gray width-90 md-width-100 d-block">Green Management Group.</a>
+							<p class="width-90 sm-width-100"><em>Energy Conservation Specialists </em><br> Revamping of old and plain website, improving trust in visitors.  </p>
 						</div>
-						<!-- end blog post item -->
-						<!-- start blog post item -->
-						<div class="col-12 col-lg-3 col-md-6 md-margin-50px-bottom sm-margin-30px-bottom last-paragraph-no-margin wow fadeInUp" data-wow-delay="0.2s">
-							<div class="blog-post blog-post-style1 text-center text-md-left">
-								<div class="blog-post-images overflow-hidden margin-25px-bottom md-margin-20px-bottom">
-									<a href="blog-post-layout-02.html">
-										<img src="http://placehold.it/750x500" alt="">
-									</a>
-								</div>
-								<div class="post-details">
-									<span class="post-author text-extra-small text-medium-gray text-uppercase d-block margin-10px-bottom sm-margin-5px-bottom">20 April 2017 | by <a href="blog-classic.html" class="text-link-dark-gray">Herman Miller</a></span>
-									<a href="blog-post-layout-02.html" class="post-title text-medium text-extra-dark-gray width-90 md-width-100 d-block">Styles come and go. Design is a language, not a style.</a>
-									<div class="separator-line-horrizontal-full bg-medium-light-gray margin-20px-tb md-margin-15px-tb"></div> 
-									<p class="width-90 sm-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum text...</p>
-								</div>
-							</div>
-						</div>
-						<!-- end blog post item -->
-						<!-- start blog post item -->
-						<div class="col-12 col-lg-3 col-md-6 sm-margin-30px-bottom last-paragraph-no-margin sm-clear-both wow fadeInUp" data-wow-delay="0.4s">
-							<div class="blog-post blog-post-style1 text-center text-md-left">
-								<div class="blog-post-images overflow-hidden margin-25px-bottom md-margin-20px-bottom">
-									<a href="blog-post-layout-03.html">
-										<img src="http://placehold.it/750x500" alt="">
-									</a>
-								</div>
-								<div class="post-details">
-									<span class="post-author text-extra-small text-medium-gray text-uppercase d-block margin-10px-bottom sm-margin-5px-bottom">15 march 2017 | by <a href="blog-classic.html" class="text-link-dark-gray">Hugh Macleod</a></span>
-									<a href="blog-post-layout-03.html" class="post-title text-medium text-extra-dark-gray width-90 md-width-100 d-block">Recognizing the need is the primary condition for design.</a>
-									<div class="separator-line-horrizontal-full bg-medium-light-gray margin-20px-tb md-margin-15px-tb"></div>
-									<p class="width-90 sm-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum text...</p>
-								</div>
-							</div>
-						</div>
-						<!-- end blog post item -->
-						<!-- start blog post item -->
-						<div class="col-12 col-lg-3 col-md-6 last-paragraph-no-margin wow fadeInUp" data-wow-delay="0.6s">
-							<div class="blog-post blog-post-style1 text-center text-md-left">
-								<div class="blog-post-images overflow-hidden margin-25px-bottom md-margin-20px-bottom">
-									<a href="blog-post-layout-04.html">
-										<img src="http://placehold.it/750x500" alt="">
-									</a>
-								</div>
-								<div class="post-details">
-									<span class="post-author text-extra-small text-medium-gray text-uppercase d-block margin-10px-bottom sm-margin-5px-bottom">10 march 2017 | by <a href="blog-classic.html" class="text-link-dark-gray">Jay Benjamin</a></span>
-									<a href="blog-post-layout-04.html" class="post-title text-medium text-extra-dark-gray width-90 md-width-100 d-block">Get in over your head as often and as joyfully as possible.</a>
-									<div class="separator-line-horrizontal-full bg-medium-light-gray margin-20px-tb md-margin-15px-tb"></div>
-									<p class="width-90 sm-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum text...</p>
-								</div>
-							</div>
-						</div>
-						<!-- end blog post item -->
 					</div>
 				</div>
-			</section>
-			<!-- end latest blog section -->
+				<!-- end blog post item -->
+			</div>
+		</div>
+	</section>
+	<!-- end Testimonial section -->
+	<!-- start pricing table style 02 section -->
+	<section class="parallax" data-stellar-background-ratio="0.1"  style="background-image: url('images/parallax-bg33.jpg')">
+	<div class="opacity-medium bg-extra-dark-gray z-index-0"></div>
+	<% include ../partials/pricing %>
+	</section>
+	<!-- End contact section --> 	
 
-	<!-- Start footer -->
-		<% include ../partials/footer %>
+	<!-- start How Different section -->
+	<section class="wow fadeIn bg-light-gray p-5">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12 col-lg-8 margin-two-bottom text-center last-paragraph-no-margin">
+					<h5 class="alt-font text-extra-dark-gray font-weight-600">How Omnius Stands Out</h5>
+				</div>
+			</div>
+			<div class="row justify-content-center">				
+				<div class="col-12 col-lg-12 padding-five-lr md-padding-15px-lr">
+					<div class="row m-0">
+						<!-- start features box item -->
+						<div class="col-12 col-md-4 sm-margin-30px-bottom md-margin-30px-bottom text-center text-lg-left wow fadeInUp last-paragraph-no-margin mt-2">
+							<i class="icon-target icon-extra-medium text-deep-pink margin-15px-bottom"></i>
+							<div class="alt-font text-extra-dark-gray font-weight-600 margin-5px-bottom">Future-Oriented</div>
+							<p class="width-85 lg-width-90 md-width-100">We're focused on the future and use cutting-edge technology. 2020 is unforgiving for businesses that don't take advantage of all the tools available online.</p>
+						</div>
+						<!-- end feature box item -->
+						<!-- start features box item -->
+						<div class="col-12 col-md-4 sm-margin-30px-bottom md-margin-30px-bottom text-center text-lg-left wow fadeInUp last-paragraph-no-margin mt-2" data-wow-delay="0.2s">
+							<i class="icon-wallet icon-extra-medium text-deep-pink margin-15px-bottom"></i>
+							<div class="alt-font text-extra-dark-gray font-weight-600 margin-5px-bottom">Payment Methods</div>
+							<p class="width-85 lg-width-90 md-width-100">Not every business is large enough to get an ROI on their online strategy- but for those that are Omnius ensures you can afford to hire us through the use of monthly plans, commission, and money-back guarantees.</p>
+						</div>
+						<!-- end feature box item -->
+						<!-- start features box item -->
+						<div class="col-12 col-md-4 wow fadeInUp sm-margin-30px-bottom md-margin-30px-bottom text-center text-lg-left last-paragraph-no-margin mt-2" data-wow-delay="0.4s">
+							<i class="icon-tools icon-extra-medium text-deep-pink margin-15px-bottom"></i>
+							<div class="alt-font text-extra-dark-gray font-weight-600 margin-5px-bottom">Questions first</div>
+							<p class="width-85 lg-width-90 md-width-100">We ask questions before giving answers. Every situation is different and in order for you to get the most bang for your buck we prioritize question-asking in our on-boarding process.</p>
+						</div>
+						<!-- end feature box item -->
+						<!-- start features box item -->
+						<div class="col-12 col-md-4 wow fadeInUp sm-margin-30px-bottom last-paragraph-no-margin text-center text-lg-left mt-2" data-wow-delay="0.6s">
+							<i class="icon-book-open icon-extra-medium text-deep-pink margin-15px-bottom"></i>
+							<div class="alt-font text-extra-dark-gray font-weight-600 margin-5px-bottom">Transparent</div>
+							<p class="width-85 lg-width-90 md-width-100">Fully transparent from beginning to end. From the moment we send you a proposal to the creation of the site to the updates you may need. No B.S. - because the honest truth is better than gold.</p>
+						</div>
+						<!-- end feature box item -->
+						<!-- start features box item -->
+						<div class="col-12 col-md-4 wow fadeInUp sm-margin-30px-bottom last-paragraph-no-margin text-center text-lg-left mt-2" data-wow-delay="0.6s">
+							<i class="icon-layers icon-extra-medium text-deep-pink margin-15px-bottom"></i>
+							<div class="alt-font text-extra-dark-gray font-weight-600 margin-5px-bottom">In it for the long-haul</div>
+							<p class="width-85 lg-width-90 md-width-100">Omnius isn't going anywhere. The online world is changing at breakneck speeds, but you can take solace in the fact that Omnius will be with you for the long-term.</p>
+						</div>
+						<!-- end feature box item -->
+						<!-- start features box item -->
+						<div class="col-12 col-md-4 wow fadeInUp last-paragraph-no-margin text-center text-lg-left mt-2" data-wow-delay="0.6s">
+							<i class="icon-toolbox icon-extra-medium text-deep-pink margin-15px-bottom"></i>
+							<div class="alt-font text-extra-dark-gray font-weight-600 margin-5px-bottom">Large Toolbox</div>
+							<p class="width-85 lg-width-90 md-width-100">Omnius brings together a vast array of tools that make the web development process more efficient. That saves you money and lets us add features that would have taken hundreds of hours to implement just 5 years ago.</p>
+						</div>
+						<!-- end feature box item -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!-- end How Differentsection -->
+
+	<!-- start Our Promises section -->
+	<section class="p-0 wow fadeIn bg-extra-dark-gray">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12 col-lg-6 cover-background md-height-500px sm-height-350px wow fadeIn" style="background-image:url('images/handshake.jpg');"><div class="sm-height-400px"></div></div>
+				<div class="col-12 col-lg-6 padding-five-tb padding-five-half-lr lg-padding-50px-tb md-padding-70px-tb md-padding-15px-lr wow fadeIn">
+					<div class="row m-0">
+						<div class="col-12 margin-four-bottom lg-margin-six-bottom md-margin-40px-bottom sm-margin-30px-bottom sm-no-padding-lr text-center text-md-left">
+							<h4 class="alt-font text-white-2 text-center text-lg-left md-width-70 mx-auto mx-lg-0 md-no-margin-bottom sm-width-100">Our Promise to You</h4>
+						</div>
+						<!-- start feature box item -->
+						<div class="col-12 col-xl-12 col-lg-12 col-md-6 margin-six-bottom md-margin-30px-bottom sm-no-padding last-paragraph-no-margin text-center text-md-left">                                
+							<p>We won’t take you on unless we’re sure we can help you.
+							When we’ve taken you on, we will provide creative & unique solutions to your problems – not-cookie-cutter solutions.
+							Based on the package you chose, we will provide periodic reports on your traffic and visitor behavior so you can make informed decisions moving forward.
+							</p>
+						</div>
+						<div class="row m-0">
+						<div class="col-12 margin-four-bottom lg-margin-six-bottom md-margin-40px-bottom sm-margin-30px-bottom sm-no-padding-lr text-center text-md-left">
+							<h4 class="alt-font text-white-2 text-center text-lg-left md-width-70 mx-auto mx-lg-0 md-no-margin-bottom sm-width-100">Why hire Omnius?</h4>
+						</div>
+						<!-- start feature box item -->
+						<div class="col-12 col-xl-12 col-lg-12 col-md-6 margin-six-bottom md-margin-30px-bottom sm-no-padding last-paragraph-no-margin text-center text-md-left">
+							
+							<p>We will get to know your business inside and out and use my industry knowledge to develop an online strategy that gets you results.We will push you to set stretch goals with us because growing your business is a team effort. We will merge our respective knowledge in order to most efficiently grow your business. You play a key role in the development of your website, your online strategy, and every large decision we make. Don’t be okay with sitting in the backseat.If you’d like to learn more, there are 3 different ways to <a> get in touch</a>.</p>
+						</div>
+						<!-- end feature box item -->
+						
+					</div>
+						<!-- end feature box item -->
+						
+					</div>
+				</div> 
+			</div>
+		</div>
+	</section>
+	<!-- end Our Promises section -->
+	<!-- start FAQs section -->
+	<section class="wow fadeIn bg-light-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h6 class="text-uppercase alt-font text-extra-dark-gray font-weight-600 margin-four-bottom">FAQ</h6>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-lg-6 col-md-6">
+					<!-- start accordion -->
+					<div class="panel-group accordion-style1" id="accordion-two">
+						<!-- accordion item -->
+						<div class="panel">
+							<div class="panel-heading">
+								<a data-toggle="collapse" data-parent="#accordion-two" href="#accordion-two-link1" class="collapsed text-extra-dark-gray" aria-expanded="false"><div class="panel-title font-weight-500 text-uppercase position-relative padding-20px-right">How would switching over work if I have a website?<span class="position-absolute right-0 top-0"><i class="ti-plus"></i></span></div></a>
+							</div>
+							<div id="accordion-two-link1" data-parent="#accordion-two" class="panel-collapse collapse">
+								<div class="panel-body text-extra-dark-gray">
+									<p>It’s very simple. You retain ownership of your domain and simply point your domain to our hosting provider- and we host your website. Unlike other agencies there’s no long-term contract with us and no penalty for moving agencies (although we hope you stay with us indefeinitely!) so it would be just as simple to switch over to a different agency in the future.</p>
+								</div>
+							</div>
+						</div>
+						<!-- end accordion item -->
+						<!-- start accordion item -->
+						<div class="panel">
+							<div class="panel-heading">
+								<a data-toggle="collapse" data-parent="#accordion-two" href="#accordion-two-link2" class="collapsed text-extra-dark-gray" aria-expanded="false"><div class="panel-title font-weight-500 text-uppercase position-relative padding-20px-right">What are some of the questions you’d ask me if we decided to work with you?<span class="position-absolute right-0 top-0"><i class="ti-plus"></i></span></div></a>
+							</div>
+							<div id="accordion-two-link2" data-parent="#accordion-two" class="panel-collapse collapse">
+								<div class="panel-body text-extra-dark-gray">
+									<p>Omnius prides itself into taking a real interest in our clients’ businesses. We’ll ask you about how you want to position your brand, your goals, your pain points, your target audience, your aesthetic preferences, the services and products you offer, your industry and competitors, the assets you already have (website-related ones) and the ones you’ll need to be created, deadlines, </p>
+								</div>
+							</div>
+						</div>
+						<!-- end accordion item -->	
+						<!-- start accordion item -->
+						<div class="panel">
+							<div class="panel-heading">
+								<a data-toggle="collapse" data-parent="#accordion-two" href="#accordion-two-link3" class="collapsed text-extra-dark-gray" aria-expanded="false"><div class="panel-title font-weight-500 text-uppercase position-relative padding-20px-right">Why do I need a modern/professional website?<span class="position-absolute right-0 top-0"><i class="ti-plus"></i></span></div></a>
+							</div>
+							<div id="accordion-two-link3" data-parent="#accordion-two" class="panel-collapse collapse">
+								<div class="panel-body text-extra-dark-gray">
+									<p>Research shows that people buy more from design-driven companies. Design-driven companies outperform the S&P by 228% over 10 years.</p>
+									<p>People form first impressions about websites, people, etc. in 1/10th of a second or 50 milliseconds, based entirely on visuals. By connecting with your audience on a personal level, you gain the ability to dramatically increase your conversion rates.</p>
+								</div>
+							</div>
+						</div>
+					<!-- end accordion item -->	
+					<!-- start accordion item -->
+						<div class="panel">
+							<div class="panel-heading">
+								<a data-toggle="collapse" data-parent="#accordion-two" href="#accordion-two-link4" class="collapsed text-extra-dark-gray" aria-expanded="false"><div class="panel-title font-weight-500 text-uppercase position-relative padding-20px-right">Do you provide SEO?<span class="position-absolute right-0 top-0"><i class="ti-plus"></i></span></div></a>
+							</div>
+							<div id="accordion-two-link4" data-parent="#accordion-two" class="panel-collapse collapse">
+								<div class="panel-body text-extra-dark-gray">
+									<p>We provide basic SEO on all packages.We’ll integrate Google Analytics for you, give you an SSL certificate, make sure your website is mobile-friendly, high-speed hosting, and ensure you have a visually-appealing website to keep time-on-page high. All of which are primary ranking factors for websites on Google.</p>
+									<p>However we do have a monthly SEO plan that involves much more work so please inquire about that if you are interested. We're proud to offer what we think is a unique offer in the GTA- a money-back guarantee if your site does not end up improving in keyword position rankings or getting more organic traffic at the end of the month. Gone are the days of paying thousands for SEO only to find that nothing has changed. No more "SEO takes months before you see any improvements". If your site doesn't improve (and we do vet clients before taking you on) then we don't get paid.</p>
+								</div>
+							</div>
+						</div>
+					<!-- end accordion item -->	
+					<!-- start accordion item -->
+						<div class="panel">
+							<div class="panel-heading">
+								<a data-toggle="collapse" data-parent="#accordion-two" href="#accordion-two-link5" class="collapsed text-extra-dark-gray" aria-expanded="false"><div class="panel-title font-weight-500 text-uppercase position-relative padding-20px-right">How does working with you month over month work?<span class="position-absolute right-0 top-0"><i class="ti-plus"></i></span></div></a>
+							</div>
+							<div id="accordion-two-link5" data-parent="#accordion-two" class="panel-collapse collapse">
+								<div class="panel-body text-extra-dark-gray">
+									<p>Monthly hosting is free. We only charge an initial fee, no residual fees whatsoever (unless you would like advanced SEO work done). Offering free hosting is a service we're happy to provide and if you need updates/changes (after your free round of revisions) we just charge you our hourly fee.</p>
+								</div>
+							</div>
+						</div>
+					<!-- end accordion item -->	
+					<!-- start accordion item -->
+						<div class="panel">
+							<div class="panel-heading">
+								<a data-toggle="collapse" data-parent="#accordion-two" href="#accordion-two-link6" class="collapsed text-extra-dark-gray" aria-expanded="false"><div class="panel-title font-weight-500 text-uppercase position-relative padding-20px-right">Are your websites mobile-responsive?<span class="position-absolute right-0 top-0"><i class="ti-plus"></i></span></div></a>
+							</div>
+							<div id="accordion-two-link6" data-parent="#accordion-two" class="panel-collapse collapse">
+								<div class="panel-body text-extra-dark-gray">
+									<p>They are very mobile-responsive. Why? 70% of online searches in the US are now conducted on mobile devices. The percentage of time spent on mobile vs desktop is even larger. Because of that we focus on mobile-responsiveness BEFORE desktop-responsiveness. What does that mean? Making sure there is adequate space for buttons or links to be clicked, readable text without requiring zoom, no horizontal scrolling, and sizing page content to fit comfortably on the page.</p>
+								</div>
+							</div>
+						</div>
+					<!-- end accordion item -->	
+					<!-- start accordion item -->
+						<div class="panel">
+							<div class="panel-heading">
+								<a data-toggle="collapse" data-parent="#accordion-two" href="#accordion-two-link7" class="collapsed text-extra-dark-gray" aria-expanded="false"><div class="panel-title font-weight-500 text-uppercase position-relative padding-20px-right">Why do websites build trust?<span class="position-absolute right-0 top-0"><i class="ti-plus"></i></span></div></a>
+							</div>
+							<div id="accordion-two-link7" data-parent="#accordion-two" class="panel-collapse collapse">
+								<div class="panel-body text-extra-dark-gray">
+									<p>They show you're committed to your business and not a fly-by-night operation. Much like having an office ties you to a physical location, a website ties you to a virtual location. People will always be able to navigate to your website and find your information.</p>
+									<p>On top of that, having a professional and modern website shows potential clients you've put in the effort to take care of your online visitors. An accessibility ramp is important for physical locations, and a modern website is important for your virtual location. Old websites are hard to navigate, aren't mobile-friendly, and are hard on the eyes.</p>
+									<p>And finally, a new website will be laser-focused on getting leads instead of just acting as an online business card. One that takes the potential client through a predictable trail ending in "the promised land" a call or email to get more information. In 2020, we can do one step better. Calendly is getting phone calls but on steroids, and Typeform is an email on steroids. No more low-quality leads!</p>
+									<p>On top of that, having a professional and modern website shows potential clients you've put in the effort to take care of your online visitors. An accessibility ramp is important for physical locations, and a modern website is important for your virtual location. Old websites are hard to navigate, aren't mobile-friendly, and are hard on the eyes.</p>
+									<p>And finally, a new website will be laser-focused on getting leads instead of just acting as an online business card. One that takes the potential client through a predictable trail ending in "the promised land" a call or email to get more information. In 2020, we can do one step better. Calendly is getting phone calls but on steroids, and Typeform is an email on steroids. No more low-quality leads!</p>
+								</div>
+							</div>
+						</div>
+					<!-- end accordion item -->
+					
+					</div>
+					<!-- end accordion -->
+				</div>
+				<div class="col-12 col-lg-6 col-md-6">
+					<!-- start accordion -->
+					<div class="panel-group accordion-style1" id="accordion-one">
+					<!-- start accordion item -->
+					<div class="panel">
+						<div class="panel-heading">
+							<a data-toggle="collapse" data-parent="#accordion-one" href="#accordion-one-link8" class="collapsed text-extra-dark-gray" aria-expanded="false"><div class="panel-title font-weight-500 text-uppercase position-relative padding-20px-right">Do you use Google Analytics?<span class="position-absolute right-0 top-0"><i class="ti-plus"></i></span></div></a>
+						</div>
+						<div id="accordion-one-link8" data-parent="#accordion-one" class="panel-collapse collapse">
+							<div class="panel-body text-extra-dark-gray">
+								<p>What isn't measured can't be improved, so Google Analytics is implemented into every website we make. For our enterprise package we also install Hotjar which is a heatmap and visitor recording software that lets us optimize the site through seeing where visitors go and what they have trouble with.</p>
+							</div>
+						</div>
+					</div>
+				<!-- end accordion item -->	
+				<!-- start accordion item -->
+					<div class="panel">
+						<div class="panel-heading">
+							<a data-toggle="collapse" data-parent="#accordion-one" href="#accordion-one-link9" class="collapsed text-extra-dark-gray" aria-expanded="false"><div class="panel-title font-weight-500 text-uppercase position-relative padding-20px-right">How quickly can I expect results?<span class="position-absolute right-0 top-0"><i class="ti-plus"></i></span></div></a>
+						</div>
+						<div id="accordion-one-link9" data-parent="#accordion-one" class="panel-collapse collapse">
+							<div class="panel-body text-extra-dark-gray">
+								<p>In most cases you can expect your new website within 1 month of us receiving the content needed (text, pictures, videos). However as for leads coming from your website, that depends a lot on amount of visitors going to your site. A site is vital for the lead conversion step of a sale, but does little for lead generation (paying for SEO - Search Engine Optimization -  can help you get traffic from Google over time but with 0 traffic outside of Google searches Google won't rank you anyways). It is up to you to ensure you have potential leads coming in from social media, word of mouth, and digital marketing even - which we can help with. It is up to us to convert these visitors into a lead, and also up to you to have a salient offer that entices people to want to take the next step with you.</p>
+							</div>
+						</div>
+					</div>
+				<!-- end accordion item -->	
+				<!-- start accordion item -->
+					<div class="panel">
+						<div class="panel-heading">
+							<a data-toggle="collapse" data-parent="#accordion-one" href="#accordion-one-link10" class="collapsed text-extra-dark-gray" aria-expanded="false"><div class="panel-title font-weight-500 text-uppercase position-relative padding-20px-right">How much effort does a new site take on my part?<span class="position-absolute right-0 top-0"><i class="ti-plus"></i></span></div></a>
+						</div>
+						<div id="accordion-one-link10" data-parent="#accordion-one" class="panel-collapse collapse">
+							<div class="panel-body text-extra-dark-gray">
+								<p>There's 6 steps to your new website. 
+				1) Learn what your needs are and send you a proposal 
+				2) Quote you the project 
+				3) Online contract on Docusign
+				4) Send us your content
+				5) Finish. That includes 2 free revisions once it is done.
+				6) Follow-up after a month looking at your analytics and your results.</p>
+							</div>
+						</div>
+					</div>
+				<!-- end accordion item -->	
+				<!-- start accordion item -->
+					<div class="panel">
+						<div class="panel-heading">
+							<a data-toggle="collapse" data-parent="#accordion-one" href="#accordion-one-link11" class="collapsed text-extra-dark-gray" aria-expanded="false"><div class="panel-title font-weight-500 text-uppercase position-relative padding-20px-right">What can a new website do?<span class="position-absolute right-0 top-0"><i class="ti-plus"></i></span></div></a>
+						</div>
+						<div id="accordion-one-link11" data-parent="#accordion-one" class="panel-collapse collapse">
+							<div class="panel-body text-extra-dark-gray">
+								<p>1) Get calls
+				2) Get emails
+				3) Get calls booked through a tool like Calendly
+				4) Get interactive surveys filled out through a tool like Typeform
+				5) Give visitors incentives to enter a contest
+				6) Enter visitors into an email list
+				7) Get information through analytics that lets you know what parts of your business intrigue a visitor most
+				8) Have users become members of your site
+				9) And even if a user takes no action on your site- build trust so that someone on the fence about you chooses to buy.</p>
+							</div>
+						</div>
+					</div>
+				<!-- end accordion item -->	
+				<!-- start accordion item -->
+					<div class="panel">
+						<div class="panel-heading">
+							<a data-toggle="collapse" data-parent="#accordion-one" href="#accordion-one-link12" class="collapsed text-extra-dark-gray" aria-expanded="false"><div class="panel-title font-weight-500 text-uppercase position-relative padding-20px-right">How much does a website cost?<span class="position-absolute right-0 top-0"><i class="ti-plus"></i></span></div></a>
+						</div>
+						<div id="accordion-one-link12" data-parent="#accordion-one" class="panel-collapse collapse">
+							<div class="panel-body text-extra-dark-gray">
+								<p>Omnius doesn't do cookie-cutter websites, so there's no such thing as just one price. We do have a pricing section that shows different packages however. In addition, for some clients we offer the ability to apply for a pay-per-lead website and online strategy that is free up-front but that is charged weekly on a per-lead basis. This is best reserved for large law or construction firms that don't believe a website would be worth it (and considering the fact that some web developers would charge these firms in the mid 5-figures to make such a site who can blame them for refusing to make that investment).</p>
+							</div>
+						</div>
+					</div>
+				<!-- end accordion item -->	
+				<!-- start accordion item -->
+					<div class="panel">
+						<div class="panel-heading">
+							<a data-toggle="collapse" data-parent="#accordion-one" href="#accordion-one-link13" class="collapsed text-extra-dark-gray" aria-expanded="false"><div class="panel-title font-weight-500 text-uppercase position-relative padding-20px-right">What if I don't have pictures for my website?<span class="position-absolute right-0 top-0"><i class="ti-plus"></i></span></div></a>
+						</div>
+						<div id="accordion-one-link13" data-parent="#accordion-one" class="panel-collapse collapse">
+							<div class="panel-body text-extra-dark-gray">
+								<p>Sadly there's no way around pictures on your website these days. Luckily there are easier ways of getting pictures than you might expect. We can assist you in this process by either by putting you in touch with a photographer or buying stock photos we think would fit well on your site. As a last resort, smartphone cameras are amazing these days and taking some landscape photos of your office, work done, or team can be done for free and in no time.</p>
+							</div>
+						</div>
+					</div>
+				<!-- end accordion item -->	
+				<!-- start accordion item -->
+					<div class="panel">
+						<div class="panel-heading">
+							<a data-toggle="collapse" data-parent="#accordion-one" href="#accordion-one-link14" class="collapsed text-extra-dark-gray" aria-expanded="false"><div class="panel-title font-weight-500 text-uppercase position-relative padding-20px-right">What's the difference between hosting &amp; domain registration?<span class="position-absolute right-0 top-0"><i class="ti-plus"></i></span></div></a>
+						</div>
+						<div id="accordion-one-link14" data-parent="#accordion-one" class="panel-collapse collapse">
+							<div class="panel-body text-extra-dark-gray">
+								<p>Website hosting is where your website is "stored" online. It's where the website is kept so that when a user visits your site the website hosting provider can send your website over to them. We personally use Siteground and WPengine, the best hosting providers for HTML and Wordpress websites respectively.</p>
+								<p>Domain registration is just registering the name with an authroized domain registrar. We've used GoDaddy for years and never had an issue- their support is stellar.</p>
+								<p>We expect clients to buy their domain name (which you should do - much like you shouldn't hire a firm to register your business as an LLC under their name), but we provide the hosting for free.</p>
+							</div>
+						</div>
+					</div>
+				<!-- end accordion item -->
+				</div>				
+				</div>
+			</div>
+		</div>
+	</section> 
+	<!-- end FAQs section -->
+	<!-- start contact section -->
+	<% include ../partials/contact %>
+	<!-- End contact section --> 
+	<!-- start contact section -->
+	<% include ../partials/contact_form %>
+	<!-- End contact section --> 	
+	<!-- Start footer --> 
+	<% include ../partials/footer %>
 	<!-- End footer -->
 	
 </body>

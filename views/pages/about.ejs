@@ -3,32 +3,66 @@
 <head>
 	<% include ../partials/head %>
 </head>
-<body class="container">
+<body>
 
 	<header>
 		<% include ../partials/header %>
 	</header>
+	<!-- start page title section -->
+		<section class="wow fadeIn parallax" data-stellar-background-ratio="0.5" style="background-image:url('images/about.jpg');">
+            <div class="opacity-medium bg-extra-dark-gray"></div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 d-flex flex-column justify-content-center text-center extra-small-screen page-title-large">
+                        <!-- start page title -->
+                        <h1 class="text-white-2 alt-font font-weight-600 letter-spacing-minus-1 margin-10px-bottom">Established in 2016</h1>
+                        <!-- end page title -->
+                        <!-- start sub title -->
+                        <span class="text-white-2 opacity6 alt-font">Technology changes quickly and we're poised to handle that</span>
+                        <!-- end sub title -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- end page title section -->	
+    <!-- start story section -->
+        <section class="wow pb-0 fadeIn">
+            <div class="container"> 
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-6 text-center md-margin-30px-bottom wow fadeInLeft">
+                        <img src="images/about-us.jpg" alt="" class="border-radius-6 w-100">
+                    </div> 
+                    <div class="col-12 col-lg-6 padding-four-lr text-center text-lg-justify lg-padding-nine-right md-padding-15px-lr wow fadeInRight" data-wow-delay="0.2s">
+                        <h6 class="alt-font text-extra-dark-gray">We help you stand out by doing things differently.</h6>
+                        <p><b>We primarily create websites, because we see websites as the final frontier of a visitor’s journey online.</b> It doesn’t matter how well your ads do, or how much customers keep coming back to you once they’ve bought (LTV), what matters is are you able to convince new visitors that you’re the solution to their problem?<br/>That’s why we see <b>SEO, digital marketing, and optimizing customer lifetime value</b> as secondary. Because we also know our target market. We’re not interested in working with SaaS companies, tech startups, or conglomerates with franchises. <b>We work with local businesses- large or small.</b> We know their issues and have tailored our offerings to best work with them. <i>We will only take on clients that we are 100% we can help.</i></p>
+                    </div>
+                </div>                
+            </div>
+        </section>
+    <!-- end story section -->
+<!-- start our_services section -->
+	<% include ../partials/our_services %>
+<!-- End our_services section -->
 
-	<main>
-		<div class="row">
-			<div class="col-sm-8">
-			
-				<div class="jumbotron">
-					<h1>This is great</h1>
-					<p>Welcome to templating using EJS</p>
-				</div>
-				
-			</div>
-			<div class="col-sm-4">
-				
-				<div class="well">
-					<h3>Look I'm A Sidebar!</h3>
-				</div>
+<!-- start blurb_noise section -->
+	<% include ../partials/blurb_noise %>
+<!-- End blurb_noise section -->
 
-			</div>
-		</div>
-	</main>
+<!-- start ready section -->
+	<% include ../partials/ready %>
+<!-- End ready section -->
 
+<!-- start our_clients section -->
+	<% include ../partials/our_clients %>
+<!-- End our_clients section -->
+		
+<!-- start contact section -->
+	<% include ../partials/contact %>
+<!-- End contact section -->
+	<!-- start contact section -->
+	<% include ../partials/contact_form %>
+	<!-- End contact section --> 	
+	
 	<footer>
 		<% include ../partials/footer %>
 	</footer>
