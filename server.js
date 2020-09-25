@@ -16,7 +16,7 @@ app.get('/', function(req, res) {
 
 
 
-app.use(express.static(__dirname + '/public'))
+
 app.use((req, res, next) => {
   if (req.header('x-forwarded-proto') !== 'https') {
     res.redirect(`https://${req.header('host')}${req.url}`)
@@ -24,6 +24,7 @@ app.use((req, res, next) => {
     next();
   }
 });
+app.use(express.static(__dirname + '/public'))
 
 // about page 
 app.get('/about', function(req, res) {
