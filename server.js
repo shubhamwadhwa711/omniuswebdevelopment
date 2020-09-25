@@ -80,6 +80,10 @@ app.get('/fourth', function(req, res) {
 app.get('/sitemap.xml', function(req, res) {
 	res.sendFile( __dirname + '/sitemap.xml');
 });
+// Robots file
+app.get('/robots.txt', function(req, res) {
+	res.sendFile( __dirname + '/robots.txt');
+});
 
 app.listen(process.env.PORT || 5000);
 //console.log('8080 is the magic port');
