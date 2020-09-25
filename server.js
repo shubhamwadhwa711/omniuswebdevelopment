@@ -2,7 +2,6 @@
 var express = require('express');
 var app = express();
 
-
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
@@ -24,6 +23,7 @@ app.use((req, res, next) => {
     next();
   }
 });
+
 app.use(express.static(__dirname + '/public'))
 
 // about page 
@@ -74,6 +74,11 @@ app.get('/second', function(req, res) {
 //fourth page 
 app.get('/fourth', function(req, res) {
 	res.render('pages/fourth', { title: 'Omnius Web Development - Fourth' });
+});
+
+// Sitemap XML 
+app.get('/sitemap.xml', function(req, res) {
+	res.sendFile( __dirname + '/sitemap.xml');
 });
 
 app.listen(process.env.PORT || 5000);
