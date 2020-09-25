@@ -2,6 +2,7 @@
 var express = require('express');
 var app = express();
 
+
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
@@ -16,6 +17,13 @@ app.get('/', function(req, res) {
 
 
 app.use(express.static(__dirname + '/public'))
+app.use((req, res, next) => {
+  if (req.header('x-forwarded-proto') !== 'https') {
+    res.redirect(`https://${req.header('host')}${req.url}`)
+  } else {
+    next();
+  }
+});
 
 // about page 
 app.get('/about', function(req, res) {
