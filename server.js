@@ -1,7 +1,7 @@
 // load the things we need
 var express = require('express');
 var app = express();
-
+var fs = require('fs');
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
@@ -55,6 +55,16 @@ app.get('/contact', function(req, res) {
 app.get('/careers', function(req, res) {
 	res.render('pages/careers' , { title: 'Omnius Web Development - Careers' });
 });
+
+//PDF Download 
+app.get('media/pdf', function(req, res) {
+	var filePath= 'media/2500grant.pdf';
+	fs.readFile(__dirname + filePath , function (err,data){
+		res.contentType("application/pdf");
+		res.send(data);
+	});
+});
+
 
 //miscellaneous page 
 app.get('/miscellaneous', function(req, res) {
